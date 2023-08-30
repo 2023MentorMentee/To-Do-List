@@ -1,3 +1,7 @@
+*{
+    font-family: Inter;
+}
+
 body{
     margin: 0%;
     background-color: #F5F5F5;
@@ -160,7 +164,7 @@ header{
 
 .content{
     padding-left: 19px;
-    padding-right: 19px;
+    padding-right: 29px;
     padding-top: 23px;
 }
 
@@ -187,16 +191,6 @@ header{
     padding-top: 19px;
     color: #2564CF;
     white-space: nowrap;
-}
-
-
-
-.box {
-  width: 935px;
-  height: 82px;
-  flex-shrink: 0;
-  fill: #FAF9F8;
-  border: black;
 }
 
 #sort{
@@ -248,12 +242,6 @@ input [id = "TodoRd"]{
     height: 25px;
     border: 0.5px solid #C2C2C2;
     background: #FFF;
-    font-size: 6px;
-    color: #969191;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 100;
-    line-height: normal;
 
     position: relative;
     left: 935px;
